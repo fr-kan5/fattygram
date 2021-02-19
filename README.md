@@ -1,24 +1,15 @@
-# README
+# fattygram
+### 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 概要
 
-Things you may want to cover:
+# 目指した課題解決
 
-* Ruby version
+# 洗い出した要件
 
-* System dependencies
+# 開発環境
 
-* Configuration
+# DB設計
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
