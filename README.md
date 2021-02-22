@@ -17,7 +17,7 @@
 |--------------------|---------------------|-------------------------|
 | email              | string              | null: false             |
 | password           | string              | null: false             |
-| name               | string              | null: false             |
+| username           | string              | null: false             |
 | profile            | text                | null: false             |
 | occupation         | text                | null: false             |
 | position           | text                | null: false             |
@@ -27,13 +27,14 @@
 * has_many :prototypes
 * has_many :comments
 
-## prototypes table
+## food table
 
 | Column                              | Type       | Options           |
 |-------------------------------------|------------|-------------------|
 | title                               | string     | null: false       |
-| catch_copy                          | text       | null: false       |
-| concept                             | text       | null: false       |
+| body                                | text       | null: false       |
+| create_at                           | text       | null: false       |
+| updated_at                          | text       | null: false       |
 | user                                | references | foreign_key: true |
 
 ### Association
