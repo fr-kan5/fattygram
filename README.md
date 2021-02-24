@@ -19,15 +19,15 @@
 | password           | string              | null: false             |
 | username           | string              | null: false             |
 | profile            | text                | null: false             |
-| occupation         | text                | null: false             |
-| position           | text                | null: false             |
+| profile_image_id   | text                | null: false             |
+| create_at          | text       | null: false       |
+| updated_at         | text       | null: false       |
 
 ### Association
 
-* has_many :prototypes
-* has_many :comments
+* has_many :foods
 
-## food table
+## foods table
 
 | Column                              | Type       | Options           |
 |-------------------------------------|------------|-------------------|
@@ -39,18 +39,4 @@
 
 ### Association
 
-- belongs_to :user
-- has_many :comments
-
-## comments table
-
-| Column      | Type       | Options           |
-|-------------|------------|-------------------|
-| text        | text       | null: false       |
-| prototype   | references | foreign_key: true |
-| user        | references | foreign_key: true |
-
-### Association
-
-- belongs_to :prototype
 - belongs_to :user
