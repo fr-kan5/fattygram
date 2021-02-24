@@ -29,7 +29,7 @@
 
 ## foods table
 
-| Column                              | Type       | Options           |
+|                             | Type       | Options           |
 |-------------------------------------|------------|-------------------|
 | title                               | string     | null: false       |
 | body                                | text       | null: false       |
