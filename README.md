@@ -11,6 +11,13 @@
 
 # 開発環境
 
+- VScode
+- Ruby 2.6.5
+- Rails 6.0.0
+- mysql2 0.4.4
+- gem 3.0.3
+- heroku 7.47.12
+
 # DB設計
 
 ## users table
